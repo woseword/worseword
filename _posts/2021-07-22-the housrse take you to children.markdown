@@ -2,7 +2,7 @@
 layout: post
 title:  "阳光彩虹小萌马 带你回到小时候"
 date:   2021-07-21 13:00:47 +0800
-categories: jekyll update
+categories: woseword
 ---
 第一步，准备材料<br>
 第二部，组织
