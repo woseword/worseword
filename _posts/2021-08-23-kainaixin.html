@@ -15,7 +15,7 @@ frameborder="no"
 framespacing="0"
  allowfullscreen="true"
 width="100%" 
-height="100%" 
+onload="autowidthandheight()" 
  > </iframe>
 
  <script type="text/javascript">
@@ -24,7 +24,7 @@ height="100%"
  		
 		var ifm= document.getElementById("p_iframe");
 		ifm.height=document.documentElement.clientHeight;
-		ifm.width=document.documentElement.clientWidth;
+		//ifm.width=document.documentElement.clientWidth;
     }
  	
 
