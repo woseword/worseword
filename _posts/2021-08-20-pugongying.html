@@ -8,7 +8,27 @@ keywords: 蒲公英 手工 钩针 编织 毛线 教程
 ---
 
 
-<iframe src="//player.bilibili.com/player.html?aid=674999011&bvid=BV1XU4y1E7vZ&cid=391587805&page=1" 
-width="500px"
-height="500px" 
-scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe id="p_iframe" src="//player.bilibili.com/player.html?aid=674999011&bvid=BV1XU4y1E7vZ&cid=391587805&page=1" 
+
+scrolling="no" 
+border="0" 
+frameborder="no" 
+framespacing="0" 
+allowfullscreen="true"
+width="100%" 
+onload="autowidthandheight()" 
+> 
+</iframe>
+
+
+ <script type="text/javascript">
+
+ 	function autowidthandheight(argument) {
+ 		
+		var ifm= document.getElementById("p_iframe");
+		ifm.height=document.documentElement.clientHeight*0.7;
+		
+    }
+
+
+</script>
