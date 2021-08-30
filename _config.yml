@@ -43,13 +43,14 @@ navs:
 #     href: /archives/
 #     label: 归档
 
-  -
-    href: /wiki/
-    label: 图解
+ 
+ # -
+ #  href: /wiki/
+ # label: 图解
 
-  -
-    href: /links/
-    label: 教程
+  #-
+    #href: /links/
+    #label: 教程
 
   -
     href: /about/
